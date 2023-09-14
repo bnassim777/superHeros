@@ -348,6 +348,10 @@
     display: none;
   }
 
+  html{
+    font-family: 'oswald';
+    src:url(../Oswald/Oswald-VariableFont_wght.ttf)
+  }
   header{
     background-color: lightyellow;
   }
@@ -381,23 +385,30 @@
     margin-right: 15rem;
   }
 
-  p{
+  article > p{
     font-size: 16px;
     display: block;
   }
 
   
-.clear{
-  clear: both;
-}
-body{
-  max-width: 750px;
-  margin-left: auto;
-  margin-right:auto ;
-}
+  .clear{
+    clear: both;
+  }
+  body{
+    max-width: 750px;
+    margin-left: auto;
+    margin-right:auto ;
+  }
 
-article > a{
-  background-color: orange;
-  text-decoration: none;
-  text-align: center;
-}
+  article > a{
+    background-color: orange;
+    text-decoration: none;
+    
+    width: 2px;
+    height: 2px;
+    margin:auto
+  }
+  @font-face{
+    font-family: 'oswald';
+    src:url(../Oswald/Oswald-VariableFont_wght.ttf)
+  }
