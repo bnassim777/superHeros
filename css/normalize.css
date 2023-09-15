@@ -69,3 +69,8 @@
     font-family: 'oswald';
     src:url(../Oswald/Oswald-VariableFont_wght.ttf) format('truetype');
   }
+
+  .icon{
+    color: orange;
+    margin: 0.2rem;
+  }
